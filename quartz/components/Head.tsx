@@ -166,6 +166,8 @@ export default (() => {
           </>
         )}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {/* NDT ADDED meta tags */}
+        <meta name="robots" content="noindex,nofollow" />
         {/* OG/Twitter meta tags */}
         <meta name="og:site_name" content={cfg.pageTitle}></meta>
         <meta property="og:title" content={title} />
